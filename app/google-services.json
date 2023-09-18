@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "309640694419",
+    "firebase_url": "https://breezeride-2bfd9-default-rtdb.firebaseio.com",
+    "project_id": "breezeride-2bfd9",
+    "storage_bucket": "breezeride-2bfd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309640694419:android:cc78757e6fcde15c005b66",
+        "android_client_info": {
+          "package_name": "com.fdb.breezeride"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIGas9G3-VLPkojUJiCsizKVNylKJJN3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -270,7 +270,7 @@ public class LoginActivity extends AppCompatActivity {
                                             } else {
 
                                                 loading(false);
-                                                showToast("This account isn't sign up");
+                                                showToast("This account isn't signed up");
 
                                                 FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
 
@@ -478,7 +478,7 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         BiometricPrompt.PromptInfo promptInfo = new BiometricPrompt.PromptInfo.Builder()
-                .setTitle("        ChatT")
+                .setTitle("        BreezeRide")
                 .setDescription("Use Fingerprint for login")
                 .setDeviceCredentialAllowed(true)
                 .build();

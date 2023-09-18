@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -8,7 +8,6 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -16,15 +15,15 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BreezeRide"
-        tools:targetApi="31">
+        android:theme="@style/Theme.ChatT"
+        tools:targetApi="33">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".RegisterActivity"
+            android:exported="false"
             android:screenOrientation="locked"
-            android:exported="false" />
+            android:windowSoftInputMode="adjustResize" />
 
         <activity
             android:name=".LoginActivity"
@@ -41,10 +40,10 @@
         </activity>
 
         <activity
-            android:name=".RegisterActivity"
-            android:exported="false"
+            android:name=".MainActivity"
             android:screenOrientation="locked"
-            android:windowSoftInputMode="adjustResize" />
+            android:exported="false" />
+
     </application>
 
 </manifest>
